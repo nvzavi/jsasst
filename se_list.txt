@@ -1,0 +1,14 @@
+****************************************************
+****Suspicious Elements List + Small Description****
+****NOTE:  Append new elements to this file*********
+****************************************************
+appendChild: Adds content to the web page body
+insertBefore: Adds content to the web page body
+write: Inserts code into a web page body
+eval: Executes script contents
+arguments.callee: Can be used to detect changes in script code
+getElementById:  Attain information from HTML controls
+HKCU:  Regisry hive - HKEY Current User
+RegRead:  Read regisry value
+powershell:  PowerShell reference detected
+FromBase64String:  Base64 reference detected
