@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# This tool is intended to assist in reviewing malicious JavaScript files.  
+# This tool is intended to assist in reviewing JavaScript files.  
 # Still testing and removing a few bugs. Kindly note that I am not responsible for any damages to code (if any).
 # Use at your own risk.  
 # Thanks.
