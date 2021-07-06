@@ -19,7 +19,7 @@ import time
 import re
 from pathlib import Path
 
-Descr = "This is a little tool to automate some of the manual tasks of reviewing possibly malicious JavaScript files. It is intended to assist by making the script easier to read.  Still testing and removing a few bugs. Kindly note that I am not responsible for any damages to code (if any). Use at your own risk.  Thanks."
+Descr = "This is a little tool to automate some of the manual tasks of reviewing possibly malicious JavaScript files. Kindly note that I am not responsible for any damages to code (if any). Best to keep\make a backup of the script file prior to running this tool. Use at your own risk.  Thanks."
 
 parser = argparse.ArgumentParser(description = Descr)
 parser.add_argument("-f", "--File", help = "This is the file from which to read the contents", required=True)
