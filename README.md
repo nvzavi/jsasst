@@ -1,5 +1,5 @@
 # jsasst (beta)
-A little tool to automate some of the manual tasks of reviewing obfuscated JavaScript files. It is intended to assist by making the script easier to read, i.e. after deobfuscation and beautification is done, as well as enable a quick overview of possible suspicious elements that may be contained within. ***NOTE:  This is a beta version, I am still testing and removing a few bugs.***
+A little tool to automate some of the manual tasks of reviewing possibly malicious JavaScript files. It is intended to assist by making the script easier to read, i.e. after deobfuscation and beautification is done, as well as enable a quick overview of possible suspicious elements that may be contained within. ***NOTE:  This is a beta version, I am still testing and removing a few bugs.***
 * The following tasks are automated *(based on your selected usage argument)*:  
   * Rename weird variable names to a name that you specify *(you provide the prefix and the tool will append an integer value to it)* 
   * Identify suspicious elements *(the tool uses the lookup list to accomplish this, i.e. the se_list.txt file that you can edit/update)* 
