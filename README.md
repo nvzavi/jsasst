@@ -15,7 +15,7 @@ Argument | Description
 -e  | Directs the tool to identify if any of the elements that are listed in the se_list.txt file  are contained within the script.
 -u  | Directs the tool to identify URLs and file names.
 -s  | Directs the tool to display a summary of the above arguments (-t, -e, -u) in one page.
--v  | Directs the tool to update script variable names to one that is specified. See example in the table below.  (**NOTE:**  This must be used together with the -d argument stated below)
+-v  | Directs the tool to update script variable names to one that you specify. See example in the table below.  (**NOTE:**  This must be used together with the -d argument stated below)
 -d  | Specifies the file name to which the results of the above argument (-v) are dumped into. (**NOTE:**  Must be used together with the -v argument.  See example in the table below)  
 
 
