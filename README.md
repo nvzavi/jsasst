@@ -1,4 +1,4 @@
-# jsasst
+# jsasst 
 A little tool to automate some of the manual tasks of reviewing obfuscated JavaScript files. It is intended to assist by making the script easier to read. ***NOTE:  Still testing and removing a few bugs.***
 * The following tasks are automated *(based on your selected usage argument)*:  
   * Rename weird variable names to a name that you specify *(you provide the prefix and the tool will append an integer value to it)* 
