@@ -27,7 +27,7 @@ Display help window | jsasst.py -h
 Display misleading tuple structures | jsasst.py -f script.js -t  
 Identify noteworthy elements  | jsasst.py -f script.js -e
 Identify URLs and file names  | jsasst.py -f script.js -u
-Display a summary of the above arguments (-t, -e, -u) in one page | jsasst.py -f script.js -s
+Summarises the above arguments (-t, -e, -u) in one page | jsasst.py -f script.js -s
 Change variable names to one that you specify | jsasst.py -f script.js -d script_output.js -v param
 
 **Additional:**  Output for each of the above examples can be piped to any file using the **>** sign in the terminal window
