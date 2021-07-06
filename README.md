@@ -1,5 +1,5 @@
-# jsasst 
-A little tool to automate some of the manual tasks of reviewing obfuscated JavaScript files. It is intended to assist by making the script easier to read. ***NOTE:  Still testing and removing a few bugs.***
+# jsasst (beta)
+A little tool to automate some of the manual tasks of reviewing obfuscated JavaScript files. It is intended to assist by making the script easier to read. ***NOTE:  This is a beta version, I am still testing and removing a few bugs.***
 * The following tasks are automated *(based on your selected usage argument)*:  
   * Rename weird variable names to a name that you specify *(you provide the prefix and the tool will append an integer value to it)* 
   * Identify some suspicious elements *(through the use of a lookup list, i.e se_list.txt, that you can define)* 
@@ -20,5 +20,5 @@ Change variable names to one that you specify | jsasst.py -f script.js -d script
 **Additional:**  Output for the above can be piped to any file using the **>** sign in the terminal window
 
 <h2>NOTE</h2>  
-I am still testing and removing a few bugs and hence kindly note that I am not responsible for any damages to your code (if any). 
+This is a beta version, I am still testing and removing a few bugs and hence kindly note that I am not responsible for any damages to your code (if any). 
 <h3>Use at your own risk</h3> 
