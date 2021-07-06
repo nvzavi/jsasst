@@ -2,7 +2,7 @@
 A little tool to automate some of the manual tasks of reviewing obfuscated JavaScript files. It is intended to assist by making the script easier to read, i.e. after deobfuscation and beautification, as well as enable a quick overview of possible suspicious elements that may be contained within. ***NOTE:  This is a beta version, I am still testing and removing a few bugs.***
 * The following tasks are automated *(based on your selected usage argument)*:  
   * Rename weird variable names to a name that you specify *(you provide the prefix and the tool will append an integer value to it)* 
-  * Identify suspicious elements *(the tool uses the lookup list to accomplish this, i.e se_list.txt, that you can define)* 
+  * Identify suspicious elements *(the tool uses the lookup list to accomplish this, i.e. se_list.txt, that you can define)* 
   * Identify URLs and files names within the script 
   * Identify misleading tuple structures in the script   
 
