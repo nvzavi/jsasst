@@ -9,7 +9,7 @@
 #
 # Date:  2021/07/04
 #
-# TODO:  Clean up/streamline code
+# TODO:  Clean up/stream-line code
 # TODO:  Complete testing
 
 import argparse
