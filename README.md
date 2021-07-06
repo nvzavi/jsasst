@@ -8,7 +8,7 @@ A little tool to automate some of the manual tasks of reviewing obfuscated JavaS
 
 Use any of the options below when processing the file:
 
-Usage | Example
+Description | Example
 ------------ | -------------
 Display help window | jsasst.py -h
 Display misleading tuple structures | jsasst.py -f script.js -t
