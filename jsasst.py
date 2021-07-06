@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 #
-# This is a little tool to automate some of the manual tasks of reviewing obfuscated JavaScript files. It is intended to assist by making the script easier to read.
+# This is a little tool to automate some of the manual tasks of reviewing possibly malicious JavaScript files. It is intended to assist by making the script easier 
+# to read, i.e. after deobfuscation and beautification is done, as well as enable a quick overview of possible suspicious elements that may be contained within
 # Still testing and removing a few bugs. Kindly note that I am not responsible for any damages to code (if any).
 # Use at your own risk.  
 # Thanks.
