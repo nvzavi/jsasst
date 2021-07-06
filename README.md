@@ -17,7 +17,8 @@ Identify URLs and file names  | jsasst.py -f script.js -u
 Display a summary of the above arguments in one page | jsasst.py -f script.js -s
 Change variable names to one that you specify | jsasst.py -f script.js -d script_output.js -v param
 
-**NOTE:**  Output for the above can be piped to any file using the **>** sign in the terminal window
+**Additional:**  Output for the above can be piped to any file using the **>** sign in the terminal window
 
-**NOTE:**  I am still testing and removing a few bugs and hence kindly note that I am not responsible for any damages to code (if any).
-**NOTE:**  Use at your own risk. 
+<h2>NOTE</h2>  
+I am still testing and removing a few bugs and hence kindly note that I am not responsible for any damages to your code (if any). 
+<h3>Use at your own risk</h3> 
