@@ -37,6 +37,7 @@ Change variable names to one that you specify | jsasst.py -f script.js -d script
 * Setup is as follows:
   * Copy jsasst.py to /usr/local/bin and make executable (chmod +x jsasst.py)
   * Copy se_list.txt to /usr/share/remnux (I am testing on a REMnux VM.  You can adjust this path in the code, simple find the comment that highlights this)
+**Additional:** Review/update the se_list.txt file to enable the tool to identify the elements that you deem noteworthy
 
 <h2>NOTE</h2>  
 This is a beta version, I am still testing and removing a few bugs. Furthermore kindly note that I am not responsible for any damages to your code (if any) i.e. after running the tool.  Best to keep\make a backup of the script file prior to running this tool. 
