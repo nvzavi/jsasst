@@ -18,3 +18,6 @@ Display a summary of the above arguments in one page | jsasst.py -f script.js -s
 Change variable names to one that you specify | jsasst.py -f script.js -d script_output.js -v param
 
 **NOTE:**  Output for the above can be piped to any file using the **>** sign in the terminal window
+
+**NOTE:**  I am still testing and removing a few bugs and hence kindly note that I am not responsible for any damages to code (if any).
+**NOTE:**  Use at your own risk. 
