@@ -79,7 +79,7 @@ def DisplaySuspiciousElements():
         print("----------------------------------------------------------------------")
         print("---    Detected JavaScript elements that may require attention     ---")
         print("----------------------------------------------------------------------")
-        SeFile = open("//usr//local//bin//se_list.txt", "r") #Change this path if se_list.txt is moved to a different location
+        SeFile = open("//usr//share//remnux//se_list.txt", "r") #Change this path if se_list.txt is moved to a different location
         DiDDCounter=0
         for SeLine in SeFile:
             if (SeLine[0]!=chr(42)): 
