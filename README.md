@@ -35,7 +35,7 @@ Change variable names to one that you specify | jsasst.py -f script.js -d script
 <h2>Setup</h2>
 
 * Setup is as follows:
-  * Copy jsasst.py to /usr/local/bin and make executable (chmod +x jsasst.py)
+  * Copy jsasst.py to /usr/local/bin and make it executable (chmod +x jsasst.py)
   * Copy se_list.txt to /usr/share/remnux (I am testing on a REMnux VM.  You can adjust this path in the code, simple find the comment that highlights this)
   * **Additional:** Review/update the se_list.txt file to enable the tool to identify the elements that you deem noteworthy
 
