@@ -4,7 +4,7 @@ A little tool to automate some of the manual tasks of reviewing obfuscated JavaS
   * Rename weird variable names to a name that you specify *(you provide the prefix and the tool will append an integer value to it)* 
   * Identify some suspicious elements *(through the use of a lookup list, i.e se_list.txt, that you can define)* 
   * Identify URLs and files names within the script 
-  * Identify mileading tuple structures in the script   
+  * Identify misleading tuple structures in the script   
 
 Use any of the options below when processing the file:
 
