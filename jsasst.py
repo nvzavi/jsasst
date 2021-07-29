@@ -9,7 +9,8 @@
 #
 # BY @nvzavi
 #
-# Date:  2021/07/04
+# Date:  2021/07/04 - released beta version
+# Date:  2021/07/04 - updated routine for identifying files within the script
 #
 # TODO:  Clean up/stream-line code
 # TODO:  Complete testing
