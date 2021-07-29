@@ -180,34 +180,17 @@ def ID_Urls_Files():
     urls = re.findall('(?:(?:(?:ftp|http)[s]*:\/\/|www\.)[^\.]+\.[^ \n]+)', DataTR)
     for item in urls:
         print(" URL:  " + item)
+        DiDDCounter+=1
     ArrIndexE=0
     VarArrayE=[]
     for Files in range(1,5):
-        FilesWI = re.findall('\.[A-Za-z0-9]{%s}\s' % str(Files), DataTR)
-        for FWI in FilesWI:
-            if str(FWI).strip() not in VarArrayE:
-                VarArrayE.insert(ArrIndexE,str(FWI).strip())
-                ArrIndexE+=1
-        FilesAE = re.findall('\.[A-Za-z0-9]{%s}$' % str(Files), DataTR)
-        for FAE in FilesAE:
-            if str(FAE).strip() not in VarArrayE:
-                VarArrayE.insert(ArrIndexE,str(FAE).strip())
-                ArrIndexE+=1
-        FilesWL = re.findall('\.[A-Za-z0-9]{%s}[);"\',]' % str(Files), DataTR)
+        FilesWL = re.findall('[\w-]+\.[A-Za-z0-9]{%s}[\s$);"\',]' % str(Files), DataTR)
         for FWL in FilesWL:
-            if str(FWL).strip() not in VarArrayE:
-                VarArrayE.insert(ArrIndexE,str(FWL).strip())
-                ArrIndexE+=1
-    for AItem in VarArrayE:
-        DFilePOS = DataTR.rfind(AItem) - 1
-        BeginChar=DFilePOS
-        CheckChar=IsUnwantedChr(DataTR[DFilePOS]) 
-        while (BeginChar != -1 and CheckChar != True): 
-           BeginChar-=1 
-           CheckChar=IsUnwantedChr(DataTR[BeginChar])
-        if (DataTR[BeginChar]!=chr(46) and DataTR[BeginChar]!=chr(47)):
-            print(" File:  " + DataTR[BeginChar:DFilePOS+1].strip() + AItem)
-        DiDDCounter+=1
+            DiDDCounter+=1
+            if IsUnwantedChr(FWL[len(FWL)-1]):
+                print(" File:  " + str(FWL[0:len(FWL)-1]))
+            else:
+                print(" File:  " + str(FWL))
     FileTR.close()
     if (DiDDCounter==0):
            print(chr(32) + chr(32) + "No URLs or files were found...")
