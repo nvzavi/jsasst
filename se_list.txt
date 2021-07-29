@@ -11,3 +11,4 @@ powershell:  PowerShell reference detected
 FromBase64String:  Base64 reference detected
 iframe:  Displays a webpage within a webpage
 unescape:  Decodes a string
+Webclient:  Can be used to download files
