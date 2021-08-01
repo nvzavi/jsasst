@@ -11,6 +11,7 @@
 #
 # Date:  2021/07/04 - released beta version
 # Date:  2021/07/29 - updated routine for identifying files within the script
+# Date:  2021/08/01 - updated output strings for -s and -e arguments 
 #
 # TODO:  Clean up/stream-line code
 # TODO:  Complete testing
@@ -223,8 +224,8 @@ if Received_Args.IdentifySuspiciousElements:
     print("***                      JavaScript Assist v1.0                   ***")
     print("*********************************************************************")
     print(" Summary of: " + Received_Args.File + "\n")
-    print(" NOTE:  The data displayed below includes any detected elements that\n"\
-       " can be used for nefarious activites. Further investigation is\n required"\
+    print(" NOTE:  The data displayed below includes any detected elements\n (compared with the se_list.txt elements) that"\
+       " can be used for\n nefarious activites.  Further investigation is required\n"\
       " in order to confirm the true nature of the contents.\n")
     DisplaySuspiciousElements()
     print("Completed in " + str(round(time.time() - SProcess,3)) + " seconds ...")
@@ -235,9 +236,9 @@ if Received_Args.QuickSummary:
     print("***                      JavaScript Assist v1.0                   ***")
     print("*********************************************************************")
     print(" Summary of: " + Received_Args.File + "\n")
-    print(" NOTE:  The data displayed below includes any detected misleading tuple\n"\
-       " statements, as well as any detected elements that can be used for\n nefarious "\
-       "activites. Further investigation is required in order to\n confirm the true"\
+    print(" NOTE:  The data displayed below includes the output received when\n using "\
+       " the -t -e -u arguments of this tool, of which the elements\n can be used for nefarious "\
+       "activites. Further investigation is\n required in order to confirm the true"\
       " nature of the contents.\n")
     Display_Tuples()
     print("\n\n")
